@@ -1,0 +1,108 @@
+body {
+    font-family: 'Playfair Display', serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  }
+
+.image {
+    width: 35%;
+}
+
+.bgpicture-heading {
+    position: absolute;
+    width: 35%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 15rem;
+    text-align: center;
+    font-size: 3em;
+}
+
+.bgpicture-refer {
+    position: absolute;
+    color: black;
+    bottom: 1em;
+    width: 35%;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(73, 51, 51)
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.form-heading, .form-info, .form-submit {
+    padding: 3%;
+}
+
+#log-in {
+    color: green;
+}
+
+.form-heading {
+    font-size: 25px;
+}
+
+.form-info {
+    background-color: rgba(0, 0, 0, 0.034);
+    margin: 3%;
+}
+
+button {
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    padding: 9px;
+    border-radius: 5%;
+    border: solid 1px;
+}
+
+.form-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-right: 65%;
+}
+
+.first-name, .last-name, .phone, .email, .password, .password-confirm {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 5px;
+    padding: 6px 15px;
+}
+
+.name, .email-phone, .form-password {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input:focus {
+    box-shadow: 5px 5px 2px lightblue;
+}
+
+button:hover {
+    background-color: rgb(114, 223, 114);
+    color: black;
+    box-shadow: inset 0px 0.8px 1px -0.25px;
+}
